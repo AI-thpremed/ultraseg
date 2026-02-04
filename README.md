@@ -29,7 +29,7 @@ UltraSeg establishes the first strong baseline for **extreme-compression** polyp
 [![Click to view full GIF](video/result1.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result1.gif)
 
 
-[![Click to view full GIF](video/result1.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result3.gif)
+[![Click to view full GIF](video/result3.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result3.gif)
 
 ## Quick Start
 
