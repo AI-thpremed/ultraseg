@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "config_version": "1.0",
+    "description": ""
+  },
+  "common": {
+    "seed": 40,
+    "device": "GPU",
+	"image_size":512
+  },
+  "training": {
+    "data_augmentation": {
+      "clahe": false,
+      "flip":  true,
+      "rotate": {
+        "enable": true,
+        "range": [-10, 10]
+      },
+      "random_blur": false,
+      "random_brightness": false,
+      "random_contrast": false
+    },
+    "dataloader": {
+      "num_workers": 0,
+      "batch_size": 6,
+      "shuffle": true
+    },
+    "evemetric": "dice",
+    "earlystop":10,
+    "lr": 1e-4
+  },
+  "validation": {
+    "data_augmentation": {
+      "clahe": false
+    },
+    "dataloader": {
+      "num_workers": 0,
+      "batch_size": 6
+    }
+  },
+  "labelme_conversion": {
+	"threshold_image": 100,
+    "min_area": 10.0,
+    "dp_tolerance": 1.5
+  },
+    "restriction": {
+	"image_max_length": 3000,
+    "train_count": 3000,
+    "test_count": 1000,
+	"infer_count": 1000,
+	"post_count": 1000
+  }
+}
