@@ -22,6 +22,15 @@ UltraSeg establishes the first strong baseline for **extreme-compression** polyp
 
 *Evaluated on CVC-ClinicDB, Kvasir, PolypGen, PolypDB, and Kvasir-Instrument datasets.*
 
+
+
+## Examples of realtime CPU Segmentation
+
+[![Click to view full GIF](video/result1.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result1.gif)
+
+
+[![Click to view full GIF](video/result1.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result3.gif)
+
 ## Quick Start
 
 ```bash
@@ -29,3 +38,6 @@ git clone https://github.com/AI-thpremed/ultraseg.git
 cd ultraseg
 
 
+## Contact
+
+email: weihaomeva@163.com
