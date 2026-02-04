@@ -32,10 +32,8 @@ UltraSeg establishes the first strong baseline for **extreme-compression** polyp
 [![Click to view full GIF](video/result3.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result3.gif)
 
 ## Quick Start
-
-```bash
 git clone https://github.com/AI-thpremed/ultraseg.git
-cd ultraseg
+
 
 
 ## Contact
