@@ -29,7 +29,9 @@ UltraSeg establishes the first strong baseline for **extreme-compression** polyp
 
 
 ## Examples of realtime CPU Segmentation
+
 Real-time Inference on CPU (using my Windows System Standard Laptop)
+
 [![Click to view full GIF](video/result1.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result1.gif)
 
 
