@@ -1,4 +1,4 @@
-# UltraSeg
+# UltraSeg Ultra-lightweight real-time polyp segmentation for CPU-only deployment
 
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
