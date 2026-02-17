@@ -1,13 +1,12 @@
 # UltraSeg Ultra-lightweight real-time polyp segmentation for CPU-only deployment
-
-
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-&gt; **Ultra-lightweight real-time polyp segmentation for CPU-only deployment**
-
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 
 Paper: Enabling Real-Time Colonoscopic Polyp Segmentation on Commodity CPUs via Ultra-Lightweight Architecture 
 https://arxiv.org/abs/2602.04381
+
+
 
 ## Overview
 
@@ -33,7 +32,6 @@ UltraSeg establishes the first strong baseline for **extreme-compression** polyp
 Real-time Inference on CPU (using my Windows System Standard Laptop)
 
 [![Click to view full GIF](video/result1.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result1.gif)
-
 
 [![Click to view full GIF](video/result3.gif)](https://github.com/AI-thpremed/ultraseg/blob/main/video/result3.gif)
 
