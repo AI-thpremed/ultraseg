@@ -5,7 +5,12 @@
 
 Paper: Enabling Real-Time Colonoscopic Polyp Segmentation on Commodity CPUs via Ultra-Lightweight Architecture 
 https://arxiv.org/abs/2602.04381
-
+@article{gao2026enabling,
+  title={Enabling Real-Time Colonoscopic Polyp Segmentation on Commodity CPUs via Ultra-Lightweight Architecture},
+  author={Gao, Weihao and Deng, Zhuo and Gong, Zheng and Ma, Lan},
+  journal={arXiv preprint arXiv:2602.04381},
+  year={2026}
+}
 
 
 ## Overview
