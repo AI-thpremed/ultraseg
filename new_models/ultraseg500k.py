@@ -227,7 +227,7 @@ class AdaptiveMerge(nn.Module):
 class UltraSeg500(nn.Module):
     def __init__(self, out_ch=2, in_ch=3,key=3):
         super().__init__()
-        c_list = [24, 48, 144, 192, 288]
+        c_list = [16, 32, 96, 128, 192]	
         self.attention_alpha = nn.Parameter(torch.tensor(0.3))
 
 
