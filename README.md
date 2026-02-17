@@ -3,14 +3,14 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
 
+
+This article provides a real-time polyp segmentation model for colonoscopy videos that relies on CPU or edge devices with a parameter count of 130K.
+
 Paper: Enabling Real-Time Colonoscopic Polyp Segmentation on Commodity CPUs via Ultra-Lightweight Architecture 
 https://arxiv.org/abs/2602.04381
-@article{gao2026enabling,
-  title={Enabling Real-Time Colonoscopic Polyp Segmentation on Commodity CPUs via Ultra-Lightweight Architecture},
-  author={Gao, Weihao and Deng, Zhuo and Gong, Zheng and Ma, Lan},
-  journal={arXiv preprint arXiv:2602.04381},
-  year={2026}
-}
+
+
+
 
 
 ## Overview
