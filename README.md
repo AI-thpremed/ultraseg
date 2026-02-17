@@ -31,6 +31,20 @@ UltraSeg establishes the first strong baseline for **extreme-compression** polyp
 *Evaluated on CVC-ClinicDB, Kvasir, PolypGen, PolypDB, and Kvasir-Instrument datasets.*
 
 
+mixed dataset test of UltraSeg family and other models
+| Method | Params (M) | FLOPs (G) | FPS (CPU) | Dice | vs UNet-B | Efficiency* |
+|:-------|:----------:|:---------:|:---------:|:----:|:---------:|:-----------:|
+| **UltraSeg-130K** | **0.13** | 0.15 | **90** | 0.8038 | 94.8% | **6.18** |
+| UltraSeg-500K | 0.50 | 0.54 | 46 | 0.8389 | 98.9% | 1.67 |
+| UltraSeg-1.11M | 1.11 | 1.15 | 25 | 0.8441 | 99.5% | 0.76 |
+| **UltraSeg-4.38M** | **4.38** | 4.44 | 10 | **0.8647** | **101.9%** | 0.20 |
+| UNet-B | 31.04 | 54.8 | 1.6 | 0.8478 | 100% | 0.027 |
+| Polyp-PVT<sup>†</sup> | 25.11 | 10.02 | 7.5 | 0.8976 | 105.8% | 0.036 |
+
+*\* Efficiency = Dice / Params (per million). Higher is better.*
+
+<sup>†</sup> *ImageNet pre-training.*
+
 
 ## Examples of realtime CPU Segmentation
 
