@@ -11,8 +11,8 @@ from models.unet_t import UNet_T
 import torch
 import time
 import numpy as np
-from new_models.colonnet108k import ColonNet108
-from new_models.colonnet130k import ColonNet130
+from new_models.ultraseg108k import UltraSeg108
+from new_models.ultraseg130k import UltraSeg130
 
 
 def benchmark_cpu(model_class, name, x, num_threads=24):
@@ -55,8 +55,8 @@ print("="*60)
 
 print("\n[24-Core Test (Intel i9-14900K)]")
 models = {
-    "ColonNet130": ColonNet130 ,
-    "ColonNet108": ColonNet108 
+    "UltraSeg108": UltraSeg108 ,
+    "UltraSeg130": UltraSeg130 
     }
 
 results_24core = {}

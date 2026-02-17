@@ -143,8 +143,6 @@ def predict_mask_segmentation(cfg):
         log(f"Using model: {cfg['algo']}")
 
 
-
-
         criterion = GT_BceDiceLoss(wb=1, wd=1)
 
 
