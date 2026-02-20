@@ -46,7 +46,7 @@ mixed dataset test of UltraSeg family and other models
 <sup>†</sup> *ImageNet pre-training.*
 
 
-## Examples of realtime CPU Segmentation
+## Examples of realtime CPU based Zero-Shot Video Segmentation
 
 Real-time Inference on CPU (using my Windows System Standard Laptop)
 
